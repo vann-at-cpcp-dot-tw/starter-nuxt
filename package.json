@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "static": "nuxi generate"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.1.8",
